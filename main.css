@@ -1,0 +1,75 @@
+.container {
+  width: 900px;
+  height: 900px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 0.8em;
+  background-color: black;
+}
+
+
+.gray {
+  background-color:#B3BFCF;
+}
+
+.white {
+  background-color: #E3DDDD;
+}
+
+.orange {
+  background-color: #F38B06;
+}
+
+.red {
+  background-color: #DC0201;
+}
+
+.black {
+  background-color: black;
+}
+
+.navy {
+  background-color: #031738;
+}
+
+.gray1, .navy, .gray3, .gray4, .white5, .white6, {
+  grid-column: span 2;
+}
+
+.white1 {
+  grid-column: span 3;
+}
+
+.gray1, .orange1, .orange2, .black, .navy, .gray3, .gray4, .white5, .white6 {
+  grid-column: span 2;
+}
+
+.gray-row-span-6 {
+  grid-column-start: 8;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.red1 {
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.orange2, .white2, .white3, .white4, .black1, .orange3, .navy {
+  grid-row: span 2;
+}
+
+.gray2 {
+  grid-row: span 3;
+}
+
+.white7 {
+  grid-column: span 4;
+}
+
+.red2 {
+  grid-column-start: 8;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
