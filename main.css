@@ -8,7 +8,6 @@
   background-color: black;
 }
 
-
 .gray {
   background-color:#B3BFCF;
 }
@@ -31,10 +30,6 @@
 
 .navy {
   background-color: #031738;
-}
-
-.gray1, .navy, .gray3, .gray4, .white5, .white6, {
-  grid-column: span 2;
 }
 
 .white1 {
